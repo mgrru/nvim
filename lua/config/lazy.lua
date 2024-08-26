@@ -18,8 +18,8 @@ require("lazy").setup({
   spec = {
     "folke/lazy.nvim",
     { import = "plugins" },
-    -- { import = "plugins.lsp" },
-    -- { import = "plugins.theme" },
+    { import = "plugins.lsp" },
+    { import = "plugins.theme" },
   },
   defaults = {
     lazy = true,

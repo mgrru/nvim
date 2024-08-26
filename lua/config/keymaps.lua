@@ -32,6 +32,9 @@ keymap.set("n", "<leader>k", "<C-w>k")
 keymap.set("n", "<leader>l", "<C-w>l")
 keymap.set("n", "<leader>c", "<C-w>c")
 
+-- 打开目录树
+keymap.set("n", "<leader>e", ":Ex<cr>")
+
 -- 剪切板
 keymap.set("n", "<leader><space>y", '"+y')
 keymap.set("n", "<leader><space>p", '"+p')
